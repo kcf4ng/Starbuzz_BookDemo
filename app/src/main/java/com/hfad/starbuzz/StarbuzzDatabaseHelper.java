@@ -8,7 +8,7 @@ import android.support.annotation.Nullable;
 
 public class StarbuzzDatabaseHelper extends SQLiteOpenHelper {
 
-    private static final String DB_NAME = null; //資料庫名稱
+    private static final String DB_NAME = "starBuzz"; //資料庫名稱
     private static final int DB_VERSION = 1 ; //資料庫版本
 
     public StarbuzzDatabaseHelper(@Nullable Context context) {
